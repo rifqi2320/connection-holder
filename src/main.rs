@@ -1,10 +1,7 @@
 mod controller;
 mod guard;
 
-use std::{
-    env,
-    sync::{Arc, Mutex},
-};
+use std::sync::{Arc, Mutex};
 
 use actix_web::{web, App, HttpServer};
 use controller::state::Clients;

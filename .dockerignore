@@ -2,3 +2,4 @@
 docker-compose.yaml
 Dockerfile
 target/
+push-docker.sh
